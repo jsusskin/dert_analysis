@@ -1,0 +1,20 @@
+//-------------------------------
+//get remote updates
+git pull
+
+//-------------------------------
+//make add file change
+git add <filename>
+
+//-------------------------------
+//make removing file change
+git rm <filename>
+
+//-------------------------------
+//send changes
+
+//start rsync
+git commit -am "<your message>"
+
+//send updates
+git push
